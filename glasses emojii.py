@@ -128,9 +128,9 @@ for i in range (20):
     mouse2.move(-7.5,0)
     face.move(-7.5,0)
     face2.move(-7.5,0)
-    righteyelash.move(-7.5,-.4)
-    lefteyelash.move(-7.5,-.4)
-    time.sleep(.09)
+    righteyelash.move(-7.5,-.5)
+    lefteyelash.move(-7.5,-.5)
+    time.sleep(.01)
 
 for i in range (40):
     glasscenter.move(7.5,0)
@@ -148,9 +148,9 @@ for i in range (40):
     mouse2.move(7.5,0)
     face.move(7.5,0)
     face2.move(7.5,0)
-    righteyelash.move(7.5,.4)
-    lefteyelash.move(7.5,.4)
-    time.sleep(.09)
+    righteyelash.move(7.5,.6)
+    lefteyelash.move(7.5,.6)
+    time.sleep(.01)
 
 
 for i in range (20):
@@ -171,7 +171,7 @@ for i in range (20):
     face2.move(-7.5,0)
     righteyelash.move(-7.5,-.5)
     lefteyelash.move(-7.5,-.5)
-    time.sleep(.09)
+    time.sleep(.01)
 
 x=win.getMouse()
 win.close()
