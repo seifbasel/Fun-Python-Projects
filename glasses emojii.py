@@ -9,17 +9,13 @@ win.setBackground("white")
 #face
 face2=Circle(Point(255,255),100)  
 face2.draw(win)                       
-face2.setOutline("black")         
+face2.setOutline("orange")         
 face2.setFill("orange")
 
 face=Circle(Point(250,250),100)  
 face.draw(win)                       
-face.setOutline("black")         
+face.setOutline("yellow")         
 face.setFill("yellow")
-
-
-
-
 
 
 #mouse
@@ -173,5 +169,5 @@ for i in range (20):
     lefteyelash.move(-7.5,-.5)
     time.sleep(.02)
 
-x=win.getMouse()
+win.getMouse()
 win.close()
