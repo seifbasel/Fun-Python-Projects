@@ -1,5 +1,8 @@
 from graphics import *
 
+
+# flower with grapics library
+
 #main window
 window = GraphWin("Window",500,500)
 window.setBackground("lightgray")
